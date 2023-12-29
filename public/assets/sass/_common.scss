@@ -1,0 +1,53 @@
+/* Reset CSS */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+* {
+    scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: rgb(93, 255, 115);
+}
+
+::-webkit-scrollbar-thumb {
+    width: 5px;
+    background-color: rgb(2, 151, 52);
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+/* Change text & background color */
+
+
+a,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+button,
+button:hover,
+button:focus,
+button:active {
+    outline: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+ul,
+ol {
+    list-style: none;
+}

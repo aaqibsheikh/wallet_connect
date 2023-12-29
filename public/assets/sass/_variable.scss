@@ -1,0 +1,17 @@
+$brand-color: #9ff000;
+$dropShadow-color: rgba(79, 85, 255, 0.08);
+
+@mixin transition($duration) {
+    -webkit-transition: all linear $duration;
+    -moz-transition: all linear $duration;
+    -ms-transition: all linear $duration;
+    -o-transition: all linear $duration;
+    transition: all linear $duration;
+}
+
+@mixin box-shadow($shadow) {
+    -webkit-box-shadow: $shadow;
+    -moz-box-shadow: $shadow;
+    box-shadow: $shadow;
+}
+

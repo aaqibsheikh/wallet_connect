@@ -16,8 +16,8 @@ const Profile = () => {
                     <div>
                         <ul className="text-part">
                             <li><a href="#" style={{ textDecoration: 'none' }}>Home</a></li>
-                            <li><a href="#">ETH</a></li>
-                            <li><a href="#">Binance</a></li>
+                            {/* <li><a href="#">ETH</a></li>
+                            <li><a href="#">Binance</a></li> */}
                             <MyWallet />
                         </ul>
                     </div>

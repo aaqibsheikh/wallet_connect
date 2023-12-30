@@ -146,7 +146,7 @@ const MainBoard = () => {
           </header>
           <div>
             <ul className="text-part">
-              <li>
+              {/* <li>
                 <a href="#" style={{ textDecoration: "none" }}>
                   Home
                 </a>
@@ -156,7 +156,7 @@ const MainBoard = () => {
               </li>
               <li>
                 <a href="#">Binance</a>
-              </li>
+              </li> */}
               <MyWallet />
             </ul>
           </div>
